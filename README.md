@@ -1,5 +1,7 @@
 # lua-chacha
 
+[![Build Status](https://travis-ci.org/catwell/lua-chacha.png?branch=master)](https://travis-ci.org/catwell/lua-chacha)
+
 ## Presentation
 
 This is a Lua C module implementing for the
@@ -10,9 +12,11 @@ encryption. Do not use this unless you really understand what you are doing.
 
 ## Dependencies
 
-Currently only tested with Lua 5.3.
+Supports Lua from 5.1 to 5.3 and LuaJIT 2.
 
 Tests depend on [cwtest](https://github.com/catwell/cwtest).
+Tests on anything else than Lua 5.3 depend on
+[compat53](https://github.com/keplerproject/lua-compat-5.3).
 
 ## Usage
 
